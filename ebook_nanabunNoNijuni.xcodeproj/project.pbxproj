@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13DF5662733E39E0090B04E /* Introduction227View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DF5642733E39E0090B04E /* Introduction227View.swift */; };
+		D13DF5672733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DF5652733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift */; };
 		D18BDCCC2733DFF100795049 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA02733DFF100795049 /* VideoPlayerView.swift */; };
 		D18BDCCD2733DFF100795049 /* YTVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA12733DFF100795049 /* YTVideoPlayerView.swift */; };
 		D18BDCCE2733DFF100795049 /* WebPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA22733DFF100795049 /* WebPlayerView.swift */; };
@@ -41,7 +43,6 @@
 		D18BDCEB2733DFF100795049 /* NaniMoShiteagerarenai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC32733DFF100795049 /* NaniMoShiteagerarenai.mp3 */; };
 		D18BDCEC2733DFF100795049 /* ShampooNoNioiGaShita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC42733DFF100795049 /* ShampooNoNioiGaShita.mp3 */; };
 		D18BDCED2733DFF100795049 /* Kakusei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC52733DFF100795049 /* Kakusei.mp3 */; };
-		D18BDCEE2733DFF100795049 /* Introduction227View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCC62733DFF100795049 /* Introduction227View.swift */; };
 		D18BDCEF2733DFF100795049 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCC72733DFF100795049 /* VideoView.swift */; };
 		D18BDCF02733DFF100795049 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCC82733DFF100795049 /* HomeView.swift */; };
 		D18BDCF12733DFF100795049 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCC92733DFF100795049 /* MusicView.swift */; };
@@ -50,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D13DF5642733E39E0090B04E /* Introduction227View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Introduction227View.swift; path = ebook_nanabunNoNijuni/Introduction227View.swift; sourceTree = "<group>"; };
+		D13DF5652733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ebook_nanabunNoNijuniApp.swift; path = ebook_nanabunNoNijuni/ebook_nanabunNoNijuniApp.swift; sourceTree = "<group>"; };
 		D18BDC8E2733DF5F00795049 /* ebook_nanabunNoNijuni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebook_nanabunNoNijuni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18BDCA02733DFF100795049 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		D18BDCA12733DFF100795049 /* YTVideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTVideoPlayerView.swift; sourceTree = "<group>"; };
@@ -85,7 +88,6 @@
 		D18BDCC32733DFF100795049 /* NaniMoShiteagerarenai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NaniMoShiteagerarenai.mp3; sourceTree = "<group>"; };
 		D18BDCC42733DFF100795049 /* ShampooNoNioiGaShita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShampooNoNioiGaShita.mp3; sourceTree = "<group>"; };
 		D18BDCC52733DFF100795049 /* Kakusei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kakusei.mp3; sourceTree = "<group>"; };
-		D18BDCC62733DFF100795049 /* Introduction227View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introduction227View.swift; sourceTree = "<group>"; };
 		D18BDCC72733DFF100795049 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoView.swift; path = ebook_nanabunNoNijuni/VideoView.swift; sourceTree = "<group>"; };
 		D18BDCC82733DFF100795049 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ebook_nanabunNoNijuni/HomeView.swift; sourceTree = "<group>"; };
 		D18BDCC92733DFF100795049 /* MusicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicView.swift; path = ebook_nanabunNoNijuni/MusicView.swift; sourceTree = "<group>"; };
@@ -113,8 +115,9 @@
 				D18BDCB52733DFF100795049 /* musicRelated */,
 				D18BDCAB2733DFF100795049 /* videoFile */,
 				D18BDCC92733DFF100795049 /* MusicView.swift */,
+				D13DF5652733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift */,
+				D13DF5642733E39E0090B04E /* Introduction227View.swift */,
 				D18BDCF32733E03300795049 /* ContentView.swift */,
-				D18BDCC62733DFF100795049 /* Introduction227View.swift */,
 				D18BDCB42733DFF100795049 /* AboutView.swift */,
 				D18BDCAA2733DFF100795049 /* eBook_227App.swift */,
 				D18BDCC72733DFF100795049 /* VideoView.swift */,
@@ -304,11 +307,13 @@
 				D18BDCE22733DFF100795049 /* AlbumView.swift in Sources */,
 				D18BDCF42733E03300795049 /* ContentView.swift in Sources */,
 				D18BDCCF2733DFF100795049 /* VideoPickerView.swift in Sources */,
+				D13DF5672733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift in Sources */,
 				D18BDCD42733DFF100795049 /* CharacterDetailView.swift in Sources */,
 				D18BDCCE2733DFF100795049 /* WebPlayerView.swift in Sources */,
 				D18BDCE02733DFF100795049 /* AlbumCoverView.swift in Sources */,
 				D18BDCE32733DFF100795049 /* SongListView.swift in Sources */,
 				D18BDCDE2733DFF100795049 /* AboutView.swift in Sources */,
+				D13DF5662733E39E0090B04E /* Introduction227View.swift in Sources */,
 				D18BDCE12733DFF100795049 /* Album.swift in Sources */,
 				D18BDCD32733DFF100795049 /* CharacterInfoRow.swift in Sources */,
 				D18BDCCD2733DFF100795049 /* YTVideoPlayerView.swift in Sources */,
@@ -316,7 +321,6 @@
 				D18BDCF12733DFF100795049 /* MusicView.swift in Sources */,
 				D18BDCD52733DFF100795049 /* eBook_227App.swift in Sources */,
 				D18BDCF02733DFF100795049 /* HomeView.swift in Sources */,
-				D18BDCEE2733DFF100795049 /* Introduction227View.swift in Sources */,
 				D18BDCEF2733DFF100795049 /* VideoView.swift in Sources */,
 				D18BDCD22733DFF100795049 /* CharacterView.swift in Sources */,
 				D18BDCCC2733DFF100795049 /* VideoPlayerView.swift in Sources */,
@@ -451,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ebook_nanabunNoNijuni/Preview Content\"";
+				DEVELOPMENT_TEAM = T9YT82AYMC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -479,6 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ebook_nanabunNoNijuni/Preview Content\"";
+				DEVELOPMENT_TEAM = T9YT82AYMC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
