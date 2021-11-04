@@ -32,6 +32,28 @@ struct HomeView: View {
                         i in
                         Image("home_pic\(i)").resizable().scaledToFit()
                     }
+                    
+                    Text("????").font(.title).padding(20).background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                    
+
+                    Text("你").font(.title).foregroundColor(.blue).underline() + Text("還想要") +
+                    Text("更多嗎？？？？")
+                    .font(.largeTitle).fontWeight(.heavy).foregroundColor(Color.orange).italic()
+                    
+                    Text("但是 NO!!").font(.custom("Nagurigaki-Crayon", size: 30))
+                    VStack {
+                        Text("這是分隔線").spectialStyle()
+                        Divider()
+                    }
+                    
+                    ZStack {
+                        Image("227logo")
+
+                        Text("OK??")
+                            .padding(30)
+                            .background(.thinMaterial)
+                    }
+                    
 
                 }.tabViewStyle(.page(indexDisplayMode: .never)).transition(.scale(scale: 10))
             }
@@ -45,9 +67,14 @@ struct HomeView: View {
         .onAppear {
             show=true
         }
-        
-        
-        
+    }
+}
+
+extension Text {
+    func spectialStyle() -> some View {
+        self
+            .font(.custom("Nagurigaki-Crayon", size: 30))
+            .shadow(radius: 20)
     }
 }
 

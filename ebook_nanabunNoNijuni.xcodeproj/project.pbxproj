@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1383F1F2734241D00E4620F /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1383F1E2734241C00E4620F /* crayon_1-1.ttf */; };
 		D13DF5662733E39E0090B04E /* Introduction227View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DF5642733E39E0090B04E /* Introduction227View.swift */; };
 		D13DF5672733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DF5652733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift */; };
 		D18BDCCC2733DFF100795049 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA02733DFF100795049 /* VideoPlayerView.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		D1383F1D2733F10900E4620F /* ebook-nanabunNoNijuni-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ebook-nanabunNoNijuni-Info.plist"; sourceTree = "<group>"; };
+		D1383F1E2734241C00E4620F /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
 		D13DF5642733E39E0090B04E /* Introduction227View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Introduction227View.swift; path = ebook_nanabunNoNijuni/Introduction227View.swift; sourceTree = "<group>"; };
 		D13DF5652733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ebook_nanabunNoNijuniApp.swift; path = ebook_nanabunNoNijuni/ebook_nanabunNoNijuniApp.swift; sourceTree = "<group>"; };
 		D18BDC8E2733DF5F00795049 /* ebook_nanabunNoNijuni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebook_nanabunNoNijuni.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				D1383F1D2733F10900E4620F /* ebook-nanabunNoNijuni-Info.plist */,
+				D1383F1E2734241C00E4620F /* crayon_1-1.ttf */,
 				D18BDC9F2733DFF100795049 /* videoRelated */,
 				D18BDCA52733DFF100795049 /* chracterRelated */,
 				D18BDCBC2733DFF100795049 /* musicFile */,
@@ -273,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1383F1F2734241D00E4620F /* crayon_1-1.ttf in Resources */,
 				D18BDCDC2733DFF100795049 /* TheDiaryofOurDaysDay05NicoleSaito.mp4 in Resources */,
 				D18BDCE92733DFF100795049 /* Muzui.mp3 in Resources */,
 				D18BDCE62733DFF100795049 /* kimiwamoon.mp3 in Resources */,
@@ -457,6 +461,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ebook-nanabunNoNijuni-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "227介紹";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -486,6 +491,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ebook-nanabunNoNijuni-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "227介紹";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

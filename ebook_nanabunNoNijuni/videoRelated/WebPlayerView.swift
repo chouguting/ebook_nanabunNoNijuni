@@ -20,6 +20,7 @@ struct WebPlayerView: UIViewRepresentable {
         guard let url=URL(string: webUrl) else{ return }
         //uiView.scrollView.isScrollEnabled=false
         uiView.load(URLRequest(url: url))
+        SongListView.player.pause()
     }
 }
 

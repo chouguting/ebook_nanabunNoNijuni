@@ -13,7 +13,9 @@ struct VideoPlayerView: View {
     
     var body: some View {
         let avPlayer = AVPlayer(url:  Bundle.main.url(forResource: video.fileName, withExtension: video.fileType)!)
-        VideoPlayer(player: avPlayer).navigationTitle(video.title)
+        VideoPlayer(player: avPlayer).onAppear(perform: {
+            SongListView.player.pause()
+        }).navigationTitle(video.title)
     }
 }
 
