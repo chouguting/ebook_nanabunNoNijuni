@@ -18,7 +18,6 @@
 		D18BDCD22733DFF100795049 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA72733DFF100795049 /* CharacterView.swift */; };
 		D18BDCD32733DFF100795049 /* CharacterInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA82733DFF100795049 /* CharacterInfoRow.swift */; };
 		D18BDCD42733DFF100795049 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA92733DFF100795049 /* CharacterDetailView.swift */; };
-		D18BDCD52733DFF100795049 /* eBook_227App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCAA2733DFF100795049 /* eBook_227App.swift */; };
 		D18BDCD62733DFF100795049 /* TheDiaryofOurDaysDay04ReikaSato.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCAC2733DFF100795049 /* TheDiaryofOurDaysDay04ReikaSato.mp4 */; };
 		D18BDCD72733DFF100795049 /* TheDiaryofOurDaysDay03TachikawaAyaka.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCAD2733DFF100795049 /* TheDiaryofOurDaysDay03TachikawaAyaka.mp4 */; };
 		D18BDCD82733DFF100795049 /* TheDiaryofOurDaysDay06Akane.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCAE2733DFF100795049 /* TheDiaryofOurDaysDay06Akane.mp4 */; };
@@ -63,7 +62,6 @@
 		D18BDCA72733DFF100795049 /* CharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		D18BDCA82733DFF100795049 /* CharacterInfoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterInfoRow.swift; sourceTree = "<group>"; };
 		D18BDCA92733DFF100795049 /* CharacterDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
-		D18BDCAA2733DFF100795049 /* eBook_227App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = eBook_227App.swift; path = ebook_nanabunNoNijuni/eBook_227App.swift; sourceTree = "<group>"; };
 		D18BDCAC2733DFF100795049 /* TheDiaryofOurDaysDay04ReikaSato.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay04ReikaSato.mp4; sourceTree = "<group>"; };
 		D18BDCAD2733DFF100795049 /* TheDiaryofOurDaysDay03TachikawaAyaka.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay03TachikawaAyaka.mp4; sourceTree = "<group>"; };
 		D18BDCAE2733DFF100795049 /* TheDiaryofOurDaysDay06Akane.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay06Akane.mp4; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				D13DF5642733E39E0090B04E /* Introduction227View.swift */,
 				D18BDCF32733E03300795049 /* ContentView.swift */,
 				D18BDCB42733DFF100795049 /* AboutView.swift */,
-				D18BDCAA2733DFF100795049 /* eBook_227App.swift */,
 				D18BDCC72733DFF100795049 /* VideoView.swift */,
 				D18BDCC82733DFF100795049 /* HomeView.swift */,
 				D18BDCBB2733DFF100795049 /* Assets.xcassets */,
@@ -319,7 +316,6 @@
 				D18BDCCD2733DFF100795049 /* YTVideoPlayerView.swift in Sources */,
 				D18BDCD02733DFF100795049 /* Video.swift in Sources */,
 				D18BDCF12733DFF100795049 /* MusicView.swift in Sources */,
-				D18BDCD52733DFF100795049 /* eBook_227App.swift in Sources */,
 				D18BDCF02733DFF100795049 /* HomeView.swift in Sources */,
 				D18BDCEF2733DFF100795049 /* VideoView.swift in Sources */,
 				D18BDCD22733DFF100795049 /* CharacterView.swift in Sources */,
