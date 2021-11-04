@@ -7,18 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D18BDC922733DF5F00795049 /* ebook_nanabunNoNijuniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDC912733DF5F00795049 /* ebook_nanabunNoNijuniApp.swift */; };
-		D18BDC942733DF5F00795049 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDC932733DF5F00795049 /* ContentView.swift */; };
-		D18BDC962733DF6000795049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18BDC952733DF6000795049 /* Assets.xcassets */; };
-		D18BDC992733DF6000795049 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18BDC982733DF6000795049 /* Preview Assets.xcassets */; };
+		D18BDCCC2733DFF100795049 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA02733DFF100795049 /* VideoPlayerView.swift */; };
+		D18BDCCD2733DFF100795049 /* YTVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA12733DFF100795049 /* YTVideoPlayerView.swift */; };
+		D18BDCCE2733DFF100795049 /* WebPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA22733DFF100795049 /* WebPlayerView.swift */; };
+		D18BDCCF2733DFF100795049 /* VideoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA32733DFF100795049 /* VideoPickerView.swift */; };
+		D18BDCD02733DFF100795049 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA42733DFF100795049 /* Video.swift */; };
+		D18BDCD12733DFF100795049 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA62733DFF100795049 /* Character.swift */; };
+		D18BDCD22733DFF100795049 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA72733DFF100795049 /* CharacterView.swift */; };
+		D18BDCD32733DFF100795049 /* CharacterInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA82733DFF100795049 /* CharacterInfoRow.swift */; };
+		D18BDCD42733DFF100795049 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCA92733DFF100795049 /* CharacterDetailView.swift */; };
+		D18BDCD52733DFF100795049 /* eBook_227App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCAA2733DFF100795049 /* eBook_227App.swift */; };
+		D18BDCD62733DFF100795049 /* TheDiaryofOurDaysDay04ReikaSato.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCAC2733DFF100795049 /* TheDiaryofOurDaysDay04ReikaSato.mp4 */; };
+		D18BDCD72733DFF100795049 /* TheDiaryofOurDaysDay03TachikawaAyaka.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCAD2733DFF100795049 /* TheDiaryofOurDaysDay03TachikawaAyaka.mp4 */; };
+		D18BDCD82733DFF100795049 /* TheDiaryofOurDaysDay06Akane.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCAE2733DFF100795049 /* TheDiaryofOurDaysDay06Akane.mp4 */; };
+		D18BDCD92733DFF100795049 /* TheDiaryofOurDaysDay01MiuTakigawa.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCAF2733DFF100795049 /* TheDiaryofOurDaysDay01MiuTakigawa.mp4 */; };
+		D18BDCDA2733DFF100795049 /* TheDiaryofOurDaysDay07TodaJun.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCB02733DFF100795049 /* TheDiaryofOurDaysDay07TodaJun.mp4 */; };
+		D18BDCDB2733DFF100795049 /* TheDiaryofOurDaysDay08FujimaSakura.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCB12733DFF100795049 /* TheDiaryofOurDaysDay08FujimaSakura.mp4 */; };
+		D18BDCDC2733DFF100795049 /* TheDiaryofOurDaysDay05NicoleSaito.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCB22733DFF100795049 /* TheDiaryofOurDaysDay05NicoleSaito.mp4 */; };
+		D18BDCDD2733DFF100795049 /* TheDiaryofOurDaysDay02MiyakoKono.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCB32733DFF100795049 /* TheDiaryofOurDaysDay02MiyakoKono.mp4 */; };
+		D18BDCDE2733DFF100795049 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCB42733DFF100795049 /* AboutView.swift */; };
+		D18BDCDF2733DFF100795049 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCB62733DFF100795049 /* Song.swift */; };
+		D18BDCE02733DFF100795049 /* AlbumCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCB72733DFF100795049 /* AlbumCoverView.swift */; };
+		D18BDCE12733DFF100795049 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCB82733DFF100795049 /* Album.swift */; };
+		D18BDCE22733DFF100795049 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCB92733DFF100795049 /* AlbumView.swift */; };
+		D18BDCE32733DFF100795049 /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCBA2733DFF100795049 /* SongListView.swift */; };
+		D18BDCE42733DFF100795049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCBB2733DFF100795049 /* Assets.xcassets */; };
+		D18BDCE52733DFF100795049 /* BokuGaMotteruMonoNara.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCBD2733DFF100795049 /* BokuGaMotteruMonoNara.mp3 */; };
+		D18BDCE62733DFF100795049 /* kimiwamoon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCBE2733DFF100795049 /* kimiwamoon.mp3 */; };
+		D18BDCE72733DFF100795049 /* Rikaisya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCBF2733DFF100795049 /* Rikaisya.mp3 */; };
+		D18BDCE82733DFF100795049 /* BokuWaSonzaiShiteinakatta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC02733DFF100795049 /* BokuWaSonzaiShiteinakatta.mp3 */; };
+		D18BDCE92733DFF100795049 /* Muzui.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC12733DFF100795049 /* Muzui.mp3 */; };
+		D18BDCEA2733DFF100795049 /* KazeWaFuiteruKa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC22733DFF100795049 /* KazeWaFuiteruKa.mp3 */; };
+		D18BDCEB2733DFF100795049 /* NaniMoShiteagerarenai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC32733DFF100795049 /* NaniMoShiteagerarenai.mp3 */; };
+		D18BDCEC2733DFF100795049 /* ShampooNoNioiGaShita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC42733DFF100795049 /* ShampooNoNioiGaShita.mp3 */; };
+		D18BDCED2733DFF100795049 /* Kakusei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCC52733DFF100795049 /* Kakusei.mp3 */; };
+		D18BDCEE2733DFF100795049 /* Introduction227View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCC62733DFF100795049 /* Introduction227View.swift */; };
+		D18BDCEF2733DFF100795049 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCC72733DFF100795049 /* VideoView.swift */; };
+		D18BDCF02733DFF100795049 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCC82733DFF100795049 /* HomeView.swift */; };
+		D18BDCF12733DFF100795049 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCC92733DFF100795049 /* MusicView.swift */; };
+		D18BDCF22733DFF100795049 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18BDCCB2733DFF100795049 /* Preview Assets.xcassets */; };
+		D18BDCF42733E03300795049 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18BDCF32733E03300795049 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D18BDC8E2733DF5F00795049 /* ebook_nanabunNoNijuni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebook_nanabunNoNijuni.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D18BDC912733DF5F00795049 /* ebook_nanabunNoNijuniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebook_nanabunNoNijuniApp.swift; sourceTree = "<group>"; };
-		D18BDC932733DF5F00795049 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D18BDC952733DF6000795049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D18BDC982733DF6000795049 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D18BDCA02733DFF100795049 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		D18BDCA12733DFF100795049 /* YTVideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTVideoPlayerView.swift; sourceTree = "<group>"; };
+		D18BDCA22733DFF100795049 /* WebPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPlayerView.swift; sourceTree = "<group>"; };
+		D18BDCA32733DFF100795049 /* VideoPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPickerView.swift; sourceTree = "<group>"; };
+		D18BDCA42733DFF100795049 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		D18BDCA62733DFF100795049 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D18BDCA72733DFF100795049 /* CharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		D18BDCA82733DFF100795049 /* CharacterInfoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterInfoRow.swift; sourceTree = "<group>"; };
+		D18BDCA92733DFF100795049 /* CharacterDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		D18BDCAA2733DFF100795049 /* eBook_227App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = eBook_227App.swift; path = ebook_nanabunNoNijuni/eBook_227App.swift; sourceTree = "<group>"; };
+		D18BDCAC2733DFF100795049 /* TheDiaryofOurDaysDay04ReikaSato.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay04ReikaSato.mp4; sourceTree = "<group>"; };
+		D18BDCAD2733DFF100795049 /* TheDiaryofOurDaysDay03TachikawaAyaka.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay03TachikawaAyaka.mp4; sourceTree = "<group>"; };
+		D18BDCAE2733DFF100795049 /* TheDiaryofOurDaysDay06Akane.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay06Akane.mp4; sourceTree = "<group>"; };
+		D18BDCAF2733DFF100795049 /* TheDiaryofOurDaysDay01MiuTakigawa.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay01MiuTakigawa.mp4; sourceTree = "<group>"; };
+		D18BDCB02733DFF100795049 /* TheDiaryofOurDaysDay07TodaJun.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay07TodaJun.mp4; sourceTree = "<group>"; };
+		D18BDCB12733DFF100795049 /* TheDiaryofOurDaysDay08FujimaSakura.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay08FujimaSakura.mp4; sourceTree = "<group>"; };
+		D18BDCB22733DFF100795049 /* TheDiaryofOurDaysDay05NicoleSaito.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay05NicoleSaito.mp4; sourceTree = "<group>"; };
+		D18BDCB32733DFF100795049 /* TheDiaryofOurDaysDay02MiyakoKono.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheDiaryofOurDaysDay02MiyakoKono.mp4; sourceTree = "<group>"; };
+		D18BDCB42733DFF100795049 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutView.swift; path = ebook_nanabunNoNijuni/AboutView.swift; sourceTree = "<group>"; };
+		D18BDCB62733DFF100795049 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D18BDCB72733DFF100795049 /* AlbumCoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCoverView.swift; sourceTree = "<group>"; };
+		D18BDCB82733DFF100795049 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		D18BDCB92733DFF100795049 /* AlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		D18BDCBA2733DFF100795049 /* SongListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
+		D18BDCBB2733DFF100795049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ebook_nanabunNoNijuni/Assets.xcassets; sourceTree = "<group>"; };
+		D18BDCBD2733DFF100795049 /* BokuGaMotteruMonoNara.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BokuGaMotteruMonoNara.mp3; sourceTree = "<group>"; };
+		D18BDCBE2733DFF100795049 /* kimiwamoon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kimiwamoon.mp3; sourceTree = "<group>"; };
+		D18BDCBF2733DFF100795049 /* Rikaisya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rikaisya.mp3; sourceTree = "<group>"; };
+		D18BDCC02733DFF100795049 /* BokuWaSonzaiShiteinakatta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BokuWaSonzaiShiteinakatta.mp3; sourceTree = "<group>"; };
+		D18BDCC12733DFF100795049 /* Muzui.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Muzui.mp3; sourceTree = "<group>"; };
+		D18BDCC22733DFF100795049 /* KazeWaFuiteruKa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KazeWaFuiteruKa.mp3; sourceTree = "<group>"; };
+		D18BDCC32733DFF100795049 /* NaniMoShiteagerarenai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NaniMoShiteagerarenai.mp3; sourceTree = "<group>"; };
+		D18BDCC42733DFF100795049 /* ShampooNoNioiGaShita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShampooNoNioiGaShita.mp3; sourceTree = "<group>"; };
+		D18BDCC52733DFF100795049 /* Kakusei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kakusei.mp3; sourceTree = "<group>"; };
+		D18BDCC62733DFF100795049 /* Introduction227View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introduction227View.swift; sourceTree = "<group>"; };
+		D18BDCC72733DFF100795049 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoView.swift; path = ebook_nanabunNoNijuni/VideoView.swift; sourceTree = "<group>"; };
+		D18BDCC82733DFF100795049 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ebook_nanabunNoNijuni/HomeView.swift; sourceTree = "<group>"; };
+		D18BDCC92733DFF100795049 /* MusicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicView.swift; path = ebook_nanabunNoNijuni/MusicView.swift; sourceTree = "<group>"; };
+		D18BDCCB2733DFF100795049 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D18BDCF32733E03300795049 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ebook_nanabunNoNijuni/ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +107,20 @@
 		D18BDC852733DF5F00795049 = {
 			isa = PBXGroup;
 			children = (
-				D18BDC902733DF5F00795049 /* ebook_nanabunNoNijuni */,
+				D18BDC9F2733DFF100795049 /* videoRelated */,
+				D18BDCA52733DFF100795049 /* chracterRelated */,
+				D18BDCBC2733DFF100795049 /* musicFile */,
+				D18BDCB52733DFF100795049 /* musicRelated */,
+				D18BDCAB2733DFF100795049 /* videoFile */,
+				D18BDCC92733DFF100795049 /* MusicView.swift */,
+				D18BDCF32733E03300795049 /* ContentView.swift */,
+				D18BDCC62733DFF100795049 /* Introduction227View.swift */,
+				D18BDCB42733DFF100795049 /* AboutView.swift */,
+				D18BDCAA2733DFF100795049 /* eBook_227App.swift */,
+				D18BDCC72733DFF100795049 /* VideoView.swift */,
+				D18BDCC82733DFF100795049 /* HomeView.swift */,
+				D18BDCBB2733DFF100795049 /* Assets.xcassets */,
+				D18BDCCA2733DFF100795049 /* Preview Content */,
 				D18BDC8F2733DF5F00795049 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +133,84 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D18BDC902733DF5F00795049 /* ebook_nanabunNoNijuni */ = {
+		D18BDC9F2733DFF100795049 /* videoRelated */ = {
 			isa = PBXGroup;
 			children = (
-				D18BDC912733DF5F00795049 /* ebook_nanabunNoNijuniApp.swift */,
-				D18BDC932733DF5F00795049 /* ContentView.swift */,
-				D18BDC952733DF6000795049 /* Assets.xcassets */,
-				D18BDC972733DF6000795049 /* Preview Content */,
+				D18BDCA02733DFF100795049 /* VideoPlayerView.swift */,
+				D18BDCA12733DFF100795049 /* YTVideoPlayerView.swift */,
+				D18BDCA22733DFF100795049 /* WebPlayerView.swift */,
+				D18BDCA32733DFF100795049 /* VideoPickerView.swift */,
+				D18BDCA42733DFF100795049 /* Video.swift */,
 			);
-			path = ebook_nanabunNoNijuni;
+			name = videoRelated;
+			path = ebook_nanabunNoNijuni/videoRelated;
 			sourceTree = "<group>";
 		};
-		D18BDC972733DF6000795049 /* Preview Content */ = {
+		D18BDCA52733DFF100795049 /* chracterRelated */ = {
 			isa = PBXGroup;
 			children = (
-				D18BDC982733DF6000795049 /* Preview Assets.xcassets */,
+				D18BDCA62733DFF100795049 /* Character.swift */,
+				D18BDCA72733DFF100795049 /* CharacterView.swift */,
+				D18BDCA82733DFF100795049 /* CharacterInfoRow.swift */,
+				D18BDCA92733DFF100795049 /* CharacterDetailView.swift */,
 			);
-			path = "Preview Content";
+			name = chracterRelated;
+			path = ebook_nanabunNoNijuni/chracterRelated;
+			sourceTree = "<group>";
+		};
+		D18BDCAB2733DFF100795049 /* videoFile */ = {
+			isa = PBXGroup;
+			children = (
+				D18BDCAC2733DFF100795049 /* TheDiaryofOurDaysDay04ReikaSato.mp4 */,
+				D18BDCAD2733DFF100795049 /* TheDiaryofOurDaysDay03TachikawaAyaka.mp4 */,
+				D18BDCAE2733DFF100795049 /* TheDiaryofOurDaysDay06Akane.mp4 */,
+				D18BDCAF2733DFF100795049 /* TheDiaryofOurDaysDay01MiuTakigawa.mp4 */,
+				D18BDCB02733DFF100795049 /* TheDiaryofOurDaysDay07TodaJun.mp4 */,
+				D18BDCB12733DFF100795049 /* TheDiaryofOurDaysDay08FujimaSakura.mp4 */,
+				D18BDCB22733DFF100795049 /* TheDiaryofOurDaysDay05NicoleSaito.mp4 */,
+				D18BDCB32733DFF100795049 /* TheDiaryofOurDaysDay02MiyakoKono.mp4 */,
+			);
+			name = videoFile;
+			path = ebook_nanabunNoNijuni/videoFile;
+			sourceTree = "<group>";
+		};
+		D18BDCB52733DFF100795049 /* musicRelated */ = {
+			isa = PBXGroup;
+			children = (
+				D18BDCB62733DFF100795049 /* Song.swift */,
+				D18BDCB72733DFF100795049 /* AlbumCoverView.swift */,
+				D18BDCB82733DFF100795049 /* Album.swift */,
+				D18BDCB92733DFF100795049 /* AlbumView.swift */,
+				D18BDCBA2733DFF100795049 /* SongListView.swift */,
+			);
+			name = musicRelated;
+			path = ebook_nanabunNoNijuni/musicRelated;
+			sourceTree = "<group>";
+		};
+		D18BDCBC2733DFF100795049 /* musicFile */ = {
+			isa = PBXGroup;
+			children = (
+				D18BDCBD2733DFF100795049 /* BokuGaMotteruMonoNara.mp3 */,
+				D18BDCBE2733DFF100795049 /* kimiwamoon.mp3 */,
+				D18BDCBF2733DFF100795049 /* Rikaisya.mp3 */,
+				D18BDCC02733DFF100795049 /* BokuWaSonzaiShiteinakatta.mp3 */,
+				D18BDCC12733DFF100795049 /* Muzui.mp3 */,
+				D18BDCC22733DFF100795049 /* KazeWaFuiteruKa.mp3 */,
+				D18BDCC32733DFF100795049 /* NaniMoShiteagerarenai.mp3 */,
+				D18BDCC42733DFF100795049 /* ShampooNoNioiGaShita.mp3 */,
+				D18BDCC52733DFF100795049 /* Kakusei.mp3 */,
+			);
+			name = musicFile;
+			path = ebook_nanabunNoNijuni/musicFile;
+			sourceTree = "<group>";
+		};
+		D18BDCCA2733DFF100795049 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D18BDCCB2733DFF100795049 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "ebook_nanabunNoNijuni/Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +271,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18BDC992733DF6000795049 /* Preview Assets.xcassets in Resources */,
-				D18BDC962733DF6000795049 /* Assets.xcassets in Resources */,
+				D18BDCDC2733DFF100795049 /* TheDiaryofOurDaysDay05NicoleSaito.mp4 in Resources */,
+				D18BDCE92733DFF100795049 /* Muzui.mp3 in Resources */,
+				D18BDCE62733DFF100795049 /* kimiwamoon.mp3 in Resources */,
+				D18BDCE42733DFF100795049 /* Assets.xcassets in Resources */,
+				D18BDCD82733DFF100795049 /* TheDiaryofOurDaysDay06Akane.mp4 in Resources */,
+				D18BDCE72733DFF100795049 /* Rikaisya.mp3 in Resources */,
+				D18BDCEC2733DFF100795049 /* ShampooNoNioiGaShita.mp3 in Resources */,
+				D18BDCD62733DFF100795049 /* TheDiaryofOurDaysDay04ReikaSato.mp4 in Resources */,
+				D18BDCD72733DFF100795049 /* TheDiaryofOurDaysDay03TachikawaAyaka.mp4 in Resources */,
+				D18BDCF22733DFF100795049 /* Preview Assets.xcassets in Resources */,
+				D18BDCDB2733DFF100795049 /* TheDiaryofOurDaysDay08FujimaSakura.mp4 in Resources */,
+				D18BDCE52733DFF100795049 /* BokuGaMotteruMonoNara.mp3 in Resources */,
+				D18BDCEB2733DFF100795049 /* NaniMoShiteagerarenai.mp3 in Resources */,
+				D18BDCDD2733DFF100795049 /* TheDiaryofOurDaysDay02MiyakoKono.mp4 in Resources */,
+				D18BDCED2733DFF100795049 /* Kakusei.mp3 in Resources */,
+				D18BDCDA2733DFF100795049 /* TheDiaryofOurDaysDay07TodaJun.mp4 in Resources */,
+				D18BDCD92733DFF100795049 /* TheDiaryofOurDaysDay01MiuTakigawa.mp4 in Resources */,
+				D18BDCE82733DFF100795049 /* BokuWaSonzaiShiteinakatta.mp3 in Resources */,
+				D18BDCEA2733DFF100795049 /* KazeWaFuiteruKa.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +300,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18BDC942733DF5F00795049 /* ContentView.swift in Sources */,
-				D18BDC922733DF5F00795049 /* ebook_nanabunNoNijuniApp.swift in Sources */,
+				D18BDCDF2733DFF100795049 /* Song.swift in Sources */,
+				D18BDCE22733DFF100795049 /* AlbumView.swift in Sources */,
+				D18BDCF42733E03300795049 /* ContentView.swift in Sources */,
+				D18BDCCF2733DFF100795049 /* VideoPickerView.swift in Sources */,
+				D18BDCD42733DFF100795049 /* CharacterDetailView.swift in Sources */,
+				D18BDCCE2733DFF100795049 /* WebPlayerView.swift in Sources */,
+				D18BDCE02733DFF100795049 /* AlbumCoverView.swift in Sources */,
+				D18BDCE32733DFF100795049 /* SongListView.swift in Sources */,
+				D18BDCDE2733DFF100795049 /* AboutView.swift in Sources */,
+				D18BDCE12733DFF100795049 /* Album.swift in Sources */,
+				D18BDCD32733DFF100795049 /* CharacterInfoRow.swift in Sources */,
+				D18BDCCD2733DFF100795049 /* YTVideoPlayerView.swift in Sources */,
+				D18BDCD02733DFF100795049 /* Video.swift in Sources */,
+				D18BDCF12733DFF100795049 /* MusicView.swift in Sources */,
+				D18BDCD52733DFF100795049 /* eBook_227App.swift in Sources */,
+				D18BDCF02733DFF100795049 /* HomeView.swift in Sources */,
+				D18BDCEE2733DFF100795049 /* Introduction227View.swift in Sources */,
+				D18BDCEF2733DFF100795049 /* VideoView.swift in Sources */,
+				D18BDCD22733DFF100795049 /* CharacterView.swift in Sources */,
+				D18BDCCC2733DFF100795049 /* VideoPlayerView.swift in Sources */,
+				D18BDCD12733DFF100795049 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +464,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chouguting.ebook-nanabunNoNijuni";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ebook_nanabunNoNijuni;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +492,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chouguting.ebook-nanabunNoNijuni";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ebook_nanabunNoNijuni;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
