@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct VideoView: View {
+    @State private var show = false
+    
     var body: some View {
         NavigationView {
             List {
                 Section {
-                    NavigationLink {
+                    NavigationLink(isActive: $show) {
                         VideoPickerView(title: "那一天的她們",videoListToPick: Video.videoList)
                     } label: {
                         Text("那一天的她們")
-                    }
+                    }.onAppear(perform: {
+                        if UIDevice.current.userInterfaceIdiom == .pad {
+                            show = true
+                        }
+                    })
                     
                     Link(destination: URL(string: "https://ani.gamer.com.tw/animeVideo.php?sn=14542")!) {
                         Text("TV動畫")
@@ -49,9 +55,8 @@ struct VideoView: View {
                 } header: {
                     Text("LIVE").font(.title2)
                 }
-
-                
             }.navigationTitle("影片")
+            VideoPickerView(title: "那一天的她們",videoListToPick: Video.videoList)
         }
     }
 }

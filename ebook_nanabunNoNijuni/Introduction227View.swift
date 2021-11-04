@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Introduction227View: View {
+
+    
     var body: some View {
         ScrollView(.vertical) {
             HeaderPhotoFlow()

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MusicView: View {
     
+    @State private var show = false
     
     let videoList=[
         Video(title: "God knows...", isOnline: true, fileYTid: "qbbEEl3v9DI"),
@@ -22,11 +23,15 @@ struct MusicView: View {
         NavigationView {
             List {
                 Section {
-                    NavigationLink {
+                    NavigationLink(isActive: $show) {
                         AlbumView()
                     } label: {
                         Text("專輯")
-                    }
+                    }.onAppear(perform: {
+                        if UIDevice.current.userInterfaceIdiom == .pad {
+                            show = true
+                        }
+                    })
                     NavigationLink {
                         SongListView(title: "所有歌曲", songList: Song.allSong)
                     } label: {
