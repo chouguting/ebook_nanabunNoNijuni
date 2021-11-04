@@ -16,7 +16,7 @@ struct HomeView: View {
         VStack{
             if(show){
                 TabView {
-                
+
                     Image("227logo")
                         .resizable()
                         .scaledToFit()
@@ -24,7 +24,6 @@ struct HomeView: View {
                         .offset(x:off_X, y: off_Y)
                         .rotationEffect(Angle(degrees: rotation))
                         .animation(.default,value: off_X)
-                        .transition(.opacity)
                         .onTapGesture {
                             off_X=Double.random(in: -(UIScreen.screenWidth/2.0)...(UIScreen.screenWidth/2.0))
                         off_Y=Double.random(in: -(UIScreen.screenHeight/2.0)...(UIScreen.screenHeight/2.0))
@@ -33,13 +32,16 @@ struct HomeView: View {
                         i in
                         Image("home_pic\(i)").resizable().scaledToFit()
                     }
-                    ScrollView(.vertical) {
-                        
-                    }
-                }.tabViewStyle(.page(indexDisplayMode: .never))
+
+                }.tabViewStyle(.page(indexDisplayMode: .never)).transition(.scale(scale: 10))
             }
             
-        }.animation(.easeIn(duration: 3), value: show)
+//            if(show){
+//                Image("227logo").resizable().scaledToFit().frame(maxHeight: 200, alignment: .center).transition(.scale(scale: 60))
+//            }
+            
+            
+        }.animation(.easeIn(duration: 1), value: show)
         .onAppear {
             show=true
         }

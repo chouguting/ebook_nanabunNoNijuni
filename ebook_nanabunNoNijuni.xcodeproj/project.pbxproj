@@ -50,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1383F1D2733F10900E4620F /* ebook-nanabunNoNijuni-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ebook-nanabunNoNijuni-Info.plist"; sourceTree = "<group>"; };
 		D13DF5642733E39E0090B04E /* Introduction227View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Introduction227View.swift; path = ebook_nanabunNoNijuni/Introduction227View.swift; sourceTree = "<group>"; };
 		D13DF5652733E39E0090B04E /* ebook_nanabunNoNijuniApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ebook_nanabunNoNijuniApp.swift; path = ebook_nanabunNoNijuni/ebook_nanabunNoNijuniApp.swift; sourceTree = "<group>"; };
 		D18BDC8E2733DF5F00795049 /* ebook_nanabunNoNijuni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebook_nanabunNoNijuni.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +108,7 @@
 		D18BDC852733DF5F00795049 = {
 			isa = PBXGroup;
 			children = (
+				D1383F1D2733F10900E4620F /* ebook-nanabunNoNijuni-Info.plist */,
 				D18BDC9F2733DFF100795049 /* videoRelated */,
 				D18BDCA52733DFF100795049 /* chracterRelated */,
 				D18BDCBC2733DFF100795049 /* musicFile */,
@@ -454,9 +456,9 @@
 				DEVELOPMENT_TEAM = T9YT82AYMC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ebook-nanabunNoNijuni-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,9 +485,9 @@
 				DEVELOPMENT_TEAM = T9YT82AYMC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ebook-nanabunNoNijuni-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
